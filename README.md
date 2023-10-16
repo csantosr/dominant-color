@@ -9,13 +9,14 @@ A simple Python script to extract the dominant color(s) from an image.
 git clone https://github.com/csantosr/dominant-color.git
 ```
 
-2. Navigate to the project directory and activate the virtual environment:
+1. Navigate to the project directory, create and activate the virtual environment:
 ```bash
-cd dominant_color_project
+cd dominant-color
+python3 -m venv venv
 source venv/bin/activate  # On Windows use: .\venv\Scripts\activate
 ```
 
-3. Install the required packages:
+1. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
